@@ -1,10 +1,10 @@
 {
-    "jirayu": {
-        "host": "lavalink.jirayu.net",
-        "port": 13592,
-        "password": "youshallnotpass",
+    "Tapao": {
+        "host": "sg1-nodelink.nyxbot.app",
+        "port": 3000,
+        "password": "nyxbot.app/support",
         "secure": false,
-        "identifier": "jirayu",
+        "identifier": "Tapao",
         "yt_ratelimit": {
             "tokens": [],
             "config": {
@@ -30,10 +30,10 @@
         }
     },
     "ariato": {
-        "host": "lavalink.aiko-project.xyz",
-        "port": 2333,
-        "password": "Rikka",
-        "secure": false,
+        "host": "lavalink.jirayu.net",
+        "port": 443,
+        "password": "youshallnotpass",
+        "secure": true,
         "identifier": "ariato",
         "yt_ratelimit": {
             "tokens": [],
@@ -59,4 +59,5 @@
             "strategy": "LoadBalance"
         }
     }
+
 }
