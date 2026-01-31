@@ -1,0 +1,62 @@
+{
+    "jirayu": {
+        "host": "lavalink.jirayu.net",
+        "port": 13592,
+        "password": "youshallnotpass",
+        "secure": false,
+        "identifier": "jirayu",
+        "yt_ratelimit": {
+            "tokens": [],
+            "config": {
+                "retry_time": 10800,
+                "max_requests": 30
+            },
+            "strategy": "LoadBalance"
+        }
+    },
+    "NAIGLAVA": {
+        "host": "lavahatry4.techbyte.host",
+        "port": 3000,
+        "password": "naig.is-a.dev",
+        "secure": false,
+        "identifier": "NAIGLAVA",
+        "yt_ratelimit": {
+            "tokens": [],
+            "config": {
+                "retry_time": 10800,
+                "max_requests": 30
+            },
+            "strategy": "LoadBalance"
+        }
+    },
+    "ariato": {
+        "host": "lavalink.aiko-project.xyz",
+        "port": 2333,
+        "password": "Rikka",
+        "secure": false,
+        "identifier": "ariato",
+        "yt_ratelimit": {
+            "tokens": [],
+            "config": {
+                "retry_time": 10800,
+                "max_requests": 30
+            },
+            "strategy": "LoadBalance"
+        }
+    },
+    "serenetia": {
+        "host": "lavalinkv4.serenetia.com",
+        "port": 443,
+        "password": "https://dsc.gg/ajidevserver",
+        "secure": true,
+        "identifier": "serenetia",
+        "yt_ratelimit": {
+            "tokens": [],
+            "config": {
+                "retry_time": 10800,
+                "max_requests": 30
+            },
+            "strategy": "LoadBalance"
+        }
+    }
+}
