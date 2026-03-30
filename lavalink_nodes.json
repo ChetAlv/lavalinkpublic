@@ -29,21 +29,6 @@
             "strategy": "LoadBalance"
         }
     },
-    "trinium": {
-        "host": "lavalink-v4.triniumhost.com",
-        "port": 443,
-        "password": "free",
-        "secure": true,
-        "identifier": "rive",
-        "yt_ratelimit": {
-            "tokens": [],
-            "config": {
-                "retry_time": 10800,
-                "max_requests": 30
-            },
-            "strategy": "LoadBalance"
-        }
-    },
     "serenetia": {
         "host": "lavalinkv4.serenetia.com",
         "port": 443,
