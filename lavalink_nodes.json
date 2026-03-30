@@ -14,12 +14,12 @@
             "strategy": "LoadBalance"
         }
     },
-    "NAIGLAVA": {
-        "host": "lavahatry4.techbyte.host",
-        "port": 3000,
-        "password": "naig.is-a.dev",
+    "JIRAYU": {
+        "host": "lavalink.jirayu.net",
+        "port": 13592,
+        "password": "youshallnotpass",
         "secure": false,
-        "identifier": "NAIGLAVA",
+        "identifier": "JIRAYU",
         "yt_ratelimit": {
             "tokens": [],
             "config": {
@@ -29,10 +29,10 @@
             "strategy": "LoadBalance"
         }
     },
-    "rive": {
-        "host": "lavalink.rive.wtf",
+    "trinium": {
+        "host": "lavalink-v4.triniumhost.com",
         "port": 443,
-        "password": "youshallnotpass",
+        "password": "free",
         "secure": true,
         "identifier": "rive",
         "yt_ratelimit": {
@@ -47,7 +47,7 @@
     "serenetia": {
         "host": "lavalinkv4.serenetia.com",
         "port": 443,
-        "password": "https://dsc.gg/ajidevserver",
+        "password": "https://seretia.link/discord",
         "secure": true,
         "identifier": "serenetia",
         "yt_ratelimit": {
@@ -59,6 +59,20 @@
             "strategy": "LoadBalance"
         }
     }
-
+    "vexa": {
+        "host": "omega.vexanode.cloud",
+        "port": 2031,
+        "password": "https://discord.vexanode.cloud",
+        "secure": false,
+        "identifier": "vexa",
+        "yt_ratelimit": {
+            "tokens": [],
+            "config": {
+                "retry_time": 10800,
+                "max_requests": 30
+            },
+            "strategy": "LoadBalance"
+        }
+    }
 }
 
