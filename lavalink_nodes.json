@@ -58,7 +58,7 @@
             },
             "strategy": "LoadBalance"
         }
-    }
+    },
     "vexa": {
         "host": "omega.vexanode.cloud",
         "port": 2031,
